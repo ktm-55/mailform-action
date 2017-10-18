@@ -27,7 +27,7 @@ class Application < Sinatra::Base
   }
 
   get '/' do
-    'Running mailform-action'
+    ''
   end
 
   post '/' do
