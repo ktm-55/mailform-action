@@ -1,15 +1,11 @@
 Contact from:
 <%= url %>
 
-
 <% params.each do |key, value| %>
 <% if key !~ /^_/ %>
-== <%= key %>
-<%= value %>
+
+<%= key %>: <%= value %>
 
 <% end %>
 
 <% end %>
-
---
-https://github.com/miyamae/mailform-action
